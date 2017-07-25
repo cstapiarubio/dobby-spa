@@ -95,7 +95,7 @@ nav{
     margin-top: -30px;
 	background-color: #E1DBD5;
 
-	h3{
+	h4{
 		color: #EC8D2E;
 	}
 
@@ -118,6 +118,13 @@ nav{
 #about{
     margin-top: -30px;
 	background-color: $cafe-oscuro;
+
+	h4, p{
+	color: $cafe-muyclaro;
+	}
+	img{
+	 border-radius: $radius;
+	}
 }
 
 /* DISEÑO SECCIÓN FOOTER*/
@@ -125,4 +132,16 @@ nav{
 #footer{
     margin-top: -30px;
 	background-color: $cafe-muyoscuro;
+
+	h6{
+	font-weight:bold;
+	}
+
+	h6, p{
+	color: $cafe-muyclaro;
+	}
+	img{
+	background-color: $cafe-muyclaro;
+	border: 5px solid #F7A2CB;
+	}
 }

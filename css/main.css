@@ -6874,7 +6874,7 @@ a.middle-indicator-text {
   height: 400px;
   margin-top: -30px;
   background-color: #E1DBD5; }
-  #welcome h3 {
+  #welcome h4 {
     color: #EC8D2E; }
   #welcome p, #welcome a {
     color: black; }
@@ -6889,10 +6889,21 @@ a.middle-indicator-text {
 #about {
   margin-top: -30px;
   background-color: #5D190E; }
+  #about h4, #about p {
+    color: #E4A46B; }
+  #about img {
+    border-radius: 15px; }
 
 /* DISE├æO SECCI├ôN FOOTER*/
 #footer {
   margin-top: -30px;
   background-color: #401610; }
+  #footer h6 {
+    font-weight: bold; }
+  #footer h6, #footer p {
+    color: #E4A46B; }
+  #footer img {
+    background-color: #E4A46B;
+    border: 5px solid #F7A2CB; }
 
 /*# sourceMappingURL=main.css.map */
