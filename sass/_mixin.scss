@@ -1,0 +1,10 @@
+@mixin img(){
+	background-repeat: no-repeat;                          
+	height: 500px;       
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:30% 95%;
+}
