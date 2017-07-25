@@ -6,6 +6,11 @@ nav{
 }
 
 /* DISEÑO SLIDER*/
+
+#carusel{
+	z-index: -1;
+}
+
 #car1{
 	@include img();
     background-image: url("../assets/img/slide1.jpg");
@@ -69,13 +74,55 @@ nav{
 /* DISEÑO SECCIÓN SERVICIOS*/
 
 #servicios{
+    height: 500px;
 	background-color: $cafe-muyclaro;
+
+	img{
+		border: 10px solid $cafe-claro;
+		z-index:1;
+	}
+
+	a{
+		color:black;
+	}
 }
 
 
 /* DISEÑO SECCIÓN WELCOME*/
 
 #welcome{
+    height: 400px;
+    margin-top: -30px;
 	background-color: #E1DBD5;
+
+	h3{
+		color: #EC8D2E;
+	}
+
+	p, a{
+		color:black;
+	}
+
+    i{
+    color: $cafe-oscuro;
+    }
+    img{
+    border-radius: $radius;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
 }
  
+ /* DISEÑO SECCIÓN ABOUT*/
+
+#about{
+    margin-top: -30px;
+	background-color: $cafe-oscuro;
+}
+
+/* DISEÑO SECCIÓN FOOTER*/
+
+#footer{
+    margin-top: -30px;
+	background-color: $cafe-muyoscuro;
+}

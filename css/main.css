@@ -6779,6 +6779,9 @@ nav {
   color: #ffffff; }
 
 /* DISE├æO SLIDER*/
+#carusel {
+  z-index: -1; }
+
 #car1 {
   background-repeat: no-repeat;
   height: 500px;
@@ -6788,6 +6791,7 @@ nav {
   -o-background-size: cover;
   background-size: cover;
   background-position: 30% 95%;
+  z-index: -1;
   background-image: url("../assets/img/slide1.jpg"); }
 
 #car2 {
@@ -6799,6 +6803,7 @@ nav {
   -o-background-size: cover;
   background-size: cover;
   background-position: 30% 95%;
+  z-index: -1;
   background-image: url("../assets/img/slide2.jpg"); }
 
 #car3 {
@@ -6810,6 +6815,7 @@ nav {
   -o-background-size: cover;
   background-size: cover;
   background-position: 30% 95%;
+  z-index: -1;
   background-image: url("../assets/img/slide3.jpg"); }
 
 @font-face {
@@ -6855,10 +6861,38 @@ a.middle-indicator-text {
 
 /* DISE├æO SECCI├ôN SERVICIOS*/
 #servicios {
+  height: 500px;
   background-color: #E4A46B; }
+  #servicios img {
+    border: 10px solid #C57E3E;
+    z-index: 1; }
+  #servicios a {
+    color: black; }
 
 /* DISE├æO SECCI├ôN WELCOME*/
 #welcome {
+  height: 400px;
+  margin-top: -30px;
   background-color: #E1DBD5; }
+  #welcome h3 {
+    color: #EC8D2E; }
+  #welcome p, #welcome a {
+    color: black; }
+  #welcome i {
+    color: #5D190E; }
+  #welcome img {
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 40px; }
+
+/* DISE├æO SECCI├ôN ABOUT*/
+#about {
+  margin-top: -30px;
+  background-color: #5D190E; }
+
+/* DISE├æO SECCI├ôN FOOTER*/
+#footer {
+  margin-top: -30px;
+  background-color: #401610; }
 
 /*# sourceMappingURL=main.css.map */
