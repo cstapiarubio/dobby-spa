@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6772,10 +6773,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+/* DISE├æO NAV*/
 nav {
   background-color: #401610;
   color: #ffffff; }
 
+/* DISE├æO SLIDER*/
 #car1 {
   background-repeat: no-repeat;
   height: 500px;
@@ -6849,5 +6852,9 @@ a.middle-indicator-text {
 
 .indicators {
   visibility: hidden; }
+
+/* DISE├æO SECCI├ôN SERVICIOS*/
+#servicios {
+  background-color: #E4A46B; }
 
 /*# sourceMappingURL=main.css.map */

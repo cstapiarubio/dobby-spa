@@ -1,8 +1,11 @@
+/* DISEÑO NAV*/
+
 nav{
 	background-color: $cafe-muyoscuro;
 	color: $blanco;
 }
 
+/* DISEÑO SLIDER*/
 #car1{
 	@include img();
     background-image: url("../assets/img/slide1.jpg");
@@ -63,3 +66,8 @@ nav{
   	visibility: hidden;
   }
 
+/* DISEÑO SECCIÓN SERVICIOS*/
+
+#servicios{
+	background-color: $cafe-muyclaro;
+}
